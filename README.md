@@ -157,3 +157,9 @@ curl -XPOST -H 'Content-Type: application/json' http://localhost:9200/jaso/test/
     }
 }'
 ```
+
+
+###### docker build
+```
+docker build --platform=linux/amd64 . --tag jaso-analyzer:v7.10.2 -f Dockerfile --output type=local,dest=./
+```
